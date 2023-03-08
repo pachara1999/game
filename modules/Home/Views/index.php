@@ -13,7 +13,7 @@
 
 </head>
 
-<body style="background-image: linear-gradient(to bottom, #1a120b, #211812, #2a1e17, #33241c, #3c2a21); background-attachment:fixed">
+<body style="background-image: linear-gradient(to bottom, #3c2a21, #3e2c21, #402f20, #423220, #433520); background-attachment:fixed">
     <nav class="navbar navbar-dark bg-dark text-light">
         <div class="container">
             <span class="navbar-brand mb-0 h1">LOGO</span>
@@ -97,6 +97,7 @@
                                     <div class="text-center">
                                         <button type="submidt" class="my-1 w-50 btn" style="background-color: #8B7E74">Login</button>
                                         <button type="submidt" class="my-1 w-50 btn" style="background-color: #C7BCA1">Register</button>
+                                        <a style="color: #C7BCA1; " class="nav-link menunav" href="#">ลืมรหัสผ่านใช่ไหม ?></a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +122,7 @@
 
                 <div class="my-2 col-md-6">
                     <div class="card" style="height: 60px;">
-                        <div class="card-body">
+                        <div style="color: #C7BCA1;" class="card-body">
                             WELCOME!!!
                         </div>
                     </div>
@@ -135,16 +136,16 @@
                     <div class="my-2">
                         <div class="card" style="height: 250px;">
                             <div class="card-body">
-                                <div class="col">
+                                <div style="color: #C7BCA1;" class="col">
                                     news to day
                                 </div>
-                                <div class="col">
+                                <div style="color: #C7BCA1;" class="col">
                                     news 1*******************
                                 </div>
-                                <div class="col">
+                                <div style="color: #C7BCA1;" class="col">
                                     news 2*******************
                                 </div>
-                                <div class="col">
+                                <div style="color: #C7BCA1;" class="col">
                                     news 3*******************
                                 </div>
                             </div>
@@ -154,24 +155,24 @@
                         <div class="card" style="height: 420px;">
                             <div class="card-body">
                                 <div class="my-2">
-                                    <div class="col">
+                                    <div style="color: #C7BCA1;" class="col">
                                         RECENT NEWS
                                     </div>
                                 </div>
                                 <div class="my-2">
-                                    <div class="col">
+                                    <div style="color: #C7BCA1;" class="col">
                                         <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="150" height="100" class="mw-100" alt="...">
                                         Promotion 1
                                     </div>
                                 </div>
                                 <div class="my-2">
-                                    <div class="col">
+                                    <div style="color: #C7BCA1;" class="col">
                                         <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="150" height="100" class="mw-100" alt="...">
                                         Promotion 2
                                     </div>
                                 </div>
                                 <div class="my-2">
-                                    <div class="col">
+                                    <div style="color: #C7BCA1;" class="col">
                                         <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="150" height="100" class="mw-100" alt="...">
                                         Promotion 3
                                     </div>
@@ -182,41 +183,53 @@
                 </div>
 
                 <div class="my-2 col-md-3">
-                    <div class="card" style="height: 580px;">
+                    <div class="card" style="height: 560px;">
                         <div class="card">
-                            <div class="card-body text-center">
+                            <div style="color: #C7BCA1;" class="card-body text-center">
                                 CLASS LIST
                             </div>
                         </div>
                         <div class="my-2 col-md-12">
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                    <a href="#">
+                                        <img src="<?= base_url("public/assets/img/class1") . ".jpg" ?>" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="my-1">
+                                <div class="col" style="text-align: center;"> 
+                                    <a href="#">
+                                        <img src="<?= base_url("public/assets/img/class2") . ".jpg" ?>" class="img-fluid" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                    <a href="#">
+                                        <img src="<?= base_url("public/assets/img/class3") . ".jpg" ?>" class="img-fluid" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                    <a href="#">
+                                        <img src="<?= base_url("public/assets/img/class4") . ".jpg" ?>" class="img-fluid" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                <a href="#">
+                                        <img src="<?= base_url("public/assets/img/class5") . ".jpg" ?>" class="img-fluid" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
-                                </div>
-                            </div>
-                            <div class="my-1">
-                                <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                <a href="#">
+                                        <img src="<?= base_url("public/assets/img/class6") . ".jpg" ?>" class="img-fluid" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -231,19 +244,21 @@
                     <div class="my-2">
                         <div class="card" style="height: 290px;">
                             <div class="card-body text-center">
-                            <div class="my-1">
-                                <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                <div class="my-1">
+                                    <div class="col" style="text-align: center;">
+                                        <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                    </div>
                                 </div>
-                            </div>   <div class="my-1">
-                                <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                <div class="my-1">
+                                    <div class="col" style="text-align: center;">
+                                        <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                    </div>
                                 </div>
-                            </div>   <div class="my-1">
-                                <div class="col" style="text-align: center;">
-                                    <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                <div class="my-1">
+                                    <div class="col" style="text-align: center;">
+                                        <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -266,8 +281,12 @@
                 }
 
                 .card {
+                    border: #8B7E74;
+                    background-color: #1A120B;
+                }
 
-                    background-color: #E5E5CB;
+                h6 {
+                    color: #C7BCA1;
                 }
             </style>
         </div>

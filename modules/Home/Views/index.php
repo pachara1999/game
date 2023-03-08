@@ -79,7 +79,7 @@
                 <div class="my-2 col-md-3">
                     <div class="card">
                         <div class="card-body">
-                            <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="100" class="mw-100" alt="...">
+                            <img src="<?= base_url("public/assets/img/login") . ".jpg" ?>" class="img-fluid" alt="">
                         </div>
                     </div>
                     <div class="my-2">
@@ -112,9 +112,9 @@
                         </div>
                     </div>
                     <div class="my-2">
-                        <div class="card" style="height: 100px;">
+                        <div class="card" style="height: 110px;">
                             <div class="card-body">
-                                <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="70" class="mw-100" alt="...">
+                                <img src="<?= base_url("public/assets/img/contact") . ".jpg" ?>" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -134,19 +134,27 @@
                         </div>
                     </div>
                     <div class="my-2">
-                        <div class="card" style="height: 250px;">
+                        <div class="card" style="height: 270px;">
                             <div class="card-body">
-                                <div style="color: #C7BCA1;" class="col">
-                                    news to day
+                                <div class="card">
+                                    <div style="color: #C7BCA1;" class="card-body text-start">
+                                        NEWS
+                                    </div>
                                 </div>
-                                <div style="color: #C7BCA1;" class="col">
-                                    news 1*******************
+                                <div class="card">
+                                    <div style="color: #C7BCA1;" class="card-body text-start">
+                                        NEWS
+                                    </div>
                                 </div>
-                                <div style="color: #C7BCA1;" class="col">
-                                    news 2*******************
+                                <div class="card">
+                                    <div style="color: #C7BCA1;" class="card-body text-start">
+                                        NEWS
+                                    </div>
                                 </div>
-                                <div style="color: #C7BCA1;" class="col">
-                                    news 3*******************
+                                <div class="card">
+                                    <div style="color: #C7BCA1;" class="card-body text-start">
+                                        NEWS
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -154,9 +162,9 @@
                     <div class="my-2">
                         <div class="card" style="height: 420px;">
                             <div class="card-body">
-                                <div class="my-2">
-                                    <div style="color: #C7BCA1;" class="col">
-                                        RECENT NEWS
+                                <div class="card">
+                                    <div style="color: #C7BCA1;" class="card-body text-start">
+                                        NEWS
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -185,7 +193,7 @@
                 <div class="my-2 col-md-3">
                     <div class="card" style="height: 560px;">
                         <div class="card">
-                            <div style="color: #C7BCA1;" class="card-body text-center">
+                            <div style="background-color: #C7BCA1;" class="card-body text-center">
                                 CLASS LIST
                             </div>
                         </div>
@@ -198,7 +206,7 @@
                                 </div>
                             </div>
                             <div class="my-1">
-                                <div class="col" style="text-align: center;"> 
+                                <div class="col" style="text-align: center;">
                                     <a href="#">
                                         <img src="<?= base_url("public/assets/img/class2") . ".jpg" ?>" class="img-fluid" alt="">
                                     </a>
@@ -220,14 +228,14 @@
                             </div>
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                <a href="#">
+                                    <a href="#">
                                         <img src="<?= base_url("public/assets/img/class5") . ".jpg" ?>" class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="my-1">
                                 <div class="col" style="text-align: center;">
-                                <a href="#">
+                                    <a href="#">
                                         <img src="<?= base_url("public/assets/img/class6") . ".jpg" ?>" class="img-fluid" alt="">
                                     </a>
                                 </div>
@@ -242,21 +250,27 @@
                         </div>
                     </div>
                     <div class="my-2">
-                        <div class="card" style="height: 290px;">
+                        <div class="card" style="height: 360px;">
                             <div class="card-body text-center">
                                 <div class="my-1">
                                     <div class="col" style="text-align: center;">
-                                        <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                        <a href="#">
+                                            <img src="<?= base_url("public/assets/img/NewGu") . ".jpg" ?>" class="img-fluid" alt="">
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="my-1">
                                     <div class="col" style="text-align: center;">
-                                        <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                        <a href="#">
+                                            <img src="<?= base_url("public/assets/img/NewGu") . ".jpg" ?>" class="img-fluid" alt="">
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="my-1">
                                     <div class="col" style="text-align: center;">
-                                        <img src="https://img.freepik.com/free-vector/green-watercolor-beige-background_53876-114427.jpg?w=996&t=st=1677661699~exp=1677662299~hmac=093cc2da12cddf094934a45e8a76e971b4fe732953472b81c9a5b83b16b28a6d" width="290" height="80" class="mw-100" alt="...">
+                                        <a href="#">
+                                            <img src="<?= base_url("public/assets/img/NewGu") . ".jpg" ?>" class="img-fluid" alt="">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -281,7 +295,7 @@
                 }
 
                 .card {
-                    border: #8B7E74;
+                    border-color: #423220;
                     background-color: #1A120B;
                 }
 
